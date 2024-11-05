@@ -1,0 +1,93 @@
+@import "section";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1990px;
+  font-family: "Roboto";
+}
+.johnn {
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  opacity: 0.8;
+  padding-left: 240px;
+}
+main {
+  padding-top: 66px;
+  position: relative;
+  .header-john {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: rgba(39, 40, 50, 1);
+    position: absolute;
+  }
+}
+.main-img {
+  width: 1990px !important;
+  height: 740px;
+}
+
+.main-itemm {
+  display: flex;
+  padding-bottom: 170px;
+}
+.pll {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+}
+.carusel-buttons {
+  display: flex;
+  align-items: start;
+  gap: 14px;
+
+  .view {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 18px 28px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: all 1s;
+    &:hover {
+      background-color: darkgreen;
+      border: transparent;
+      border: 2px solid;
+    }
+    &:active {
+      transform: scale(1.1);
+      border: 2px solid rgb(255, 255, 255);
+    }
+  }
+  .hire {
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    padding: 18px 28px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    transition: all 0.5s;
+    &:hover {
+      background-color: darkgreen;
+      border: transparent;
+      border: 2px solid;
+    }
+    &:active {
+      transform: scale(1.1);
+      border: 2px solid rgb(255, 255, 255);
+    }
+  }
+}
